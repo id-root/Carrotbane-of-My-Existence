@@ -2,6 +2,8 @@
 
 This is the ultimate write-up detailing the entire exploitation chain from the very start to obtaining all four flags. It covers every reconnaissance step, discovery technique, exploitation method, and the correct /etc/hosts configuration based on the actual network setup.
 
+**Before we continue this room if you havn't got the key to this room go here** ![KEY SQ3](Key for Carrotbane of My Existence.md)
+
 ## Stage 0:Network Reconnaissance
 #### Port Scanning - Initial Discovery
 
@@ -740,3 +742,6 @@ The document details a complete CTF exploitation chain for HopAI Tech room, from
 | 2     | DNS Poisoning + Phishing      | DNS A/MX hacker.thm → attacker IP; swaks → violet.thumper@; aiosmtpd port 25           | Ticketing creds (violet.thumper:Pr0duct!Mn2024); **FLAG2: THM39564de94a133349e3d76a91d3f0501c** |
 | 3     | Ticketing AI Prompt Injection | Login ticketing-system.hopaitech.thm; Inject Ticket 6                                  | SSH key and **FLAG3: THM3a07cd4e05ce03d953a22e90122c6a89**                                      |
 | 4     | Network Pivot + Ollama        | SSH -D 9050 tunnel; Proxychains 172.17.0.1:11434/api                                   | Ollama sir-carrotbane model; **FLAG4: THMe116666ffb7fcfadc7e6136ca30f75bf**                     |
+
+## Inforgraphics
+![](infographics-google.png)
