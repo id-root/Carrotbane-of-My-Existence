@@ -92,8 +92,9 @@ except Exception as e:
 
 Now look at the output section; You Got the real png. 
 
-![[Pasted image 20251220112945.png]]
+![](Output.png)
+
 
 Click on the save icon in output section and save it as egg.png
 
-![[egg.png]]
+![](egg.png)
