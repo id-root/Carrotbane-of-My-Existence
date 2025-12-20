@@ -98,3 +98,6 @@ Now look at the output section; You Got the real png.
 Click on the save icon in output section and save it as egg.png
 
 ![](egg.png)
+
+
+# ![Side quest 3](README.md)
