@@ -316,7 +316,7 @@ def index():
 </body></html>'''
 
 if __name__ == '__main__':
-    print(```
+    print(r```
 
   ============================================================
     ███████╗███████╗██████╗ ███████╗     █████╗ ██╗
@@ -329,7 +329,8 @@ if __name__ == '__main__':
                       SSRF + AI
  
          Prompt Injection / Redirect Abuse Test Server
- ============================================================```)
+ ============================================================
+```)
     print("[*] Server running on http://0.0.0.0:8888")
     print("\n[*] Usage examples:")
     print("    curl -X POST http://url-analyzer.hopaitech.thm/analyze -H 'Content-Type: application/json' -d '{\"url\":\"http://YOUR-VPN-IP:8888/systemprompt\"}'")
