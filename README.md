@@ -576,7 +576,7 @@ Here are all 10 email subjects in your inbox:
 9. Product Feature Discussion (from product@competitor.com)
 10. User Feature Request (from user-feedback@hopaitech.thm)
 
-Let me know if you'd like to read any of these emails!
+
 
 ```
 
