@@ -25,7 +25,7 @@ PORT      STATE SERVICE      VERSION
 21337/TCP open  http         Unlock Server
 ```
 
-After looking at the web app on port 80 we found a common  name `hopaitech.thm` 
+After looking at the web app on port 80 we found a common  domain name `hopaitech.thm` 
 #### DNS Reconnaissance
 
 ```bash
