@@ -2,7 +2,7 @@
 
 This is the ultimate write-up detailing the entire exploitation chain from the very start to obtaining all four flags. It covers every reconnaissance step, discovery technique, exploitation method, and the correct /etc/hosts configuration based on the actual network setup.
 
-**URL of the room:** ![Carrotbane of my existence](https://tryhackme.com/room/sq3-aoc2025-bk3vvbcgiT)
+**URL of the room:** [Carrotbane of my existence](https://tryhackme.com/room/sq3-aoc2025-bk3vvbcgiT)
 
 **Before we continue this room if you haven't got the key to this room go here** ![KEY](Key-for-Carrotbane-of-My-Existence.md)
 
